@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<S2AConfig>
+  <LayerConfig>
+    <LayerNo>10090</LayerNo>
+    <Primitive>53</Primitive>
+    <AttributeTable />
+    <CoordinateSystemNo>209</CoordinateSystemNo>
+  </LayerConfig>
+  <ShapeAttributeConfig>
+    <Fields>
+      <Field id="SAUID">
+        <ColID>userID</ColID>
+      </Field>
+      <Field id="SAUPDATE">
+        <ColID />
+      </Field>
+      <Field id="SAANGLE">
+        <ColID />
+      </Field>
+      <Field id="SASIZE">
+        <ColID />
+      </Field>
+      <Field id="SATEXT">
+        <ColID />
+      </Field>
+      <Field id="SAVERTICAL">
+        <ColID />
+      </Field>
+    </Fields>
+  </ShapeAttributeConfig>
+</S2AConfig>
