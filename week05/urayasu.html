@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5f7f43f9542f0ac585bfb35bcd0039d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b5f7f43f9542f0ac585bfb35bcd0039d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5f7f43f9542f0ac585bfb35bcd0039d = L.map(
+                "map_b5f7f43f9542f0ac585bfb35bcd0039d",
+                {
+                    center: [35.638548120394844, 139.92639199461996],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11bebcc890b6ec25363f213837b221ce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+            var marker_d4396a1f21145631322ea9e678cb99f3 = L.marker(
+                [35.637520487520064, 139.92402761184917],
+                {}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+        var popup_70ee47a9f28c29a21c35fd3347085037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eba60ba6911aebb1df9d460133bfd15 = $(`<div id="html_7eba60ba6911aebb1df9d460133bfd15" style="width: 100.0%; height: 100.0%;">wine bistro & bottle shop</div>`)[0];
+                popup_70ee47a9f28c29a21c35fd3347085037.setContent(html_7eba60ba6911aebb1df9d460133bfd15);
+            
+        
+
+        marker_d4396a1f21145631322ea9e678cb99f3.bindPopup(popup_70ee47a9f28c29a21c35fd3347085037)
+        ;
+
+        
+    
+    
+            marker_d4396a1f21145631322ea9e678cb99f3.bindTooltip(
+                `<div>
+                     la plage
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d19a4c68c1badf4cdde97c789f2f710 = L.marker(
+                [35.63780888233954, 139.92367559650393],
+                {}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+        var popup_5bba9a0ba87c353c8be13ee72f8a9fdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bc1fe6d569411afa6e5f07466db396e = $(`<div id="html_2bc1fe6d569411afa6e5f07466db396e" style="width: 100.0%; height: 100.0%;">Great coffee, modern food & good vibes.Inspired by Sydney, Australia.</div>`)[0];
+                popup_5bba9a0ba87c353c8be13ee72f8a9fdf.setContent(html_2bc1fe6d569411afa6e5f07466db396e);
+            
+        
+
+        marker_9d19a4c68c1badf4cdde97c789f2f710.bindPopup(popup_5bba9a0ba87c353c8be13ee72f8a9fdf)
+        ;
+
+        
+    
+    
+            marker_9d19a4c68c1badf4cdde97c789f2f710.bindTooltip(
+                `<div>
+                     Bountiful Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86834492332363d19167a5f5bbe05af5 = L.marker(
+                [35.63799134090532, 139.9234375258535],
+                {}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+        var popup_fe651ddfce11d8aa553b9d10be838abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efb078a674b67e2cc8d261bda516eced = $(`<div id="html_efb078a674b67e2cc8d261bda516eced" style="width: 100.0%; height: 100.0%;">WAGYU hamburg & cake</div>`)[0];
+                popup_fe651ddfce11d8aa553b9d10be838abe.setContent(html_efb078a674b67e2cc8d261bda516eced);
+            
+        
+
+        marker_86834492332363d19167a5f5bbe05af5.bindPopup(popup_fe651ddfce11d8aa553b9d10be838abe)
+        ;
+
+        
+    
+    
+            marker_86834492332363d19167a5f5bbe05af5.bindTooltip(
+                `<div>
+                     鎌倉ハンバーグ LaNai 3/9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bde9a2df6e27df473f6b710cf354fa9b = L.marker(
+                [35.6418222258404, 139.9265645290484],
+                {}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+        var popup_aad023925f7ac7a5e88544b7d50b4be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e42eb24e76de1ef7835f12fe8ace9dd8 = $(`<div id="html_e42eb24e76de1ef7835f12fe8ace9dd8" style="width: 100.0%; height: 100.0%;">chinese restaurant</div>`)[0];
+                popup_aad023925f7ac7a5e88544b7d50b4be0.setContent(html_e42eb24e76de1ef7835f12fe8ace9dd8);
+            
+        
+
+        marker_bde9a2df6e27df473f6b710cf354fa9b.bindPopup(popup_aad023925f7ac7a5e88544b7d50b4be0)
+        ;
+
+        
+    
+    
+            marker_bde9a2df6e27df473f6b710cf354fa9b.bindTooltip(
+                `<div>
+                     チンタンタン
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17b06e65265e80f0c9914f8ca973e9de = L.marker(
+                [35.640390645615994, 139.9287275285352],
+                {}
+            ).addTo(map_b5f7f43f9542f0ac585bfb35bcd0039d);
+        
+    
+        var popup_0d16c53da1babfaa14009a9cd0816f1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d81fdfe60f22bd7b0a527a23efb76abe = $(`<div id="html_d81fdfe60f22bd7b0a527a23efb76abe" style="width: 100.0%; height: 100.0%;">Creative Mediterranean cuisine and a wide variety of drinks</div>`)[0];
+                popup_0d16c53da1babfaa14009a9cd0816f1b.setContent(html_d81fdfe60f22bd7b0a527a23efb76abe);
+            
+        
+
+        marker_17b06e65265e80f0c9914f8ca973e9de.bindPopup(popup_0d16c53da1babfaa14009a9cd0816f1b)
+        ;
+
+        
+    
+    
+            marker_17b06e65265e80f0c9914f8ca973e9de.bindTooltip(
+                `<div>
+                     Restaurant ＆ Bar Payaso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
